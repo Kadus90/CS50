@@ -1,0 +1,81 @@
+main {
+    padding-bottom: 80px;
+}
+section {
+    padding: 2em;
+}
+footer {
+    position: fixed;
+    margin-top:80px;
+    background-color: #E16668;
+    width: 100%;
+    bottom: 0;
+}
+h2 {
+    padding-top: 1em;
+}
+section {
+    float: left;
+}
+article {
+    padding: 1rem;
+}
+aside {
+    width: 35%;
+    float: right;
+}
+.jumbotron {
+    margin-bottom: 1rem;
+}
+.text-bg {
+    background-color: #485F7220;
+    padding: 3rem 3rem 8rem 3rem;
+    border-radius: 50% 20% / 10% 40%;
+}
+.text-bg-clear {
+    padding: 3rem 1rem 8rem 1rem;
+}
+.img-fluid {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+.main {
+    width: 60%;
+}
+.side {
+    width: 25%;
+}
+.articles {
+    float: left;
+    width: 60%;
+    margin-right: 5%;
+}
+.sidebar {
+    border: thick double #E16668;
+    padding: 1rem;
+    margin-bottom: 3rem;
+}
+.sidebar-img {
+    display:block;
+    margin-top:3rem;
+    transform: rotate(.25turn);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.card {
+    float: left;
+    margin: auto 2%;
+}
+.in-body {
+    width: 25em;
+    margin: 1em;
+    float: left;
+}
+@media (max-width: 576px) {
+    section {
+        float: none;
+    }
+}

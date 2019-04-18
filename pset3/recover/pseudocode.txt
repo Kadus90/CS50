@@ -1,0 +1,15 @@
+
+- Open memory card
+    - fopen
+- Repeat until the end of card
+    - Read 512 bytes into a buffer
+    - Start of a new jpeg?
+        - Yes
+        - No
+    - Already found a jpeg?
+        - No
+        - Yes
+- Close any remaining files
+    Open a new jpeg
+    Write 512 bytes until new jpeg is found
+    Detect end of file
